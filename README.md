@@ -23,7 +23,7 @@ Let's get started!
 Vanilla+ Templates support the five Blizzard SC2 campaigns, *Wings of Liberty*, *Heart of the Swarm*, *Legacy of the Void: Prologue*, *Legacy of the Void*, and *Nova: Covert Ops*. We will always abbreviate them as WOL, HOTS, LOTV:P, LOTV, and NCO respectively in this project. We will also use **CMP** when we need to refer to a generic campaign, if you see this just mentally replace it with the abbreviation for the campaign you are working with. Vanilla+ does not provide support for custom campaigns such as StarCraft Mass Recall.
 
 # Download
-TODO: Like do they just download this repo? Do we use the releases function? GoogleDrive?
+Download the folder of your desired campaign, and the VanillaPlusLibrary file.
 
 # What's Inside
 So you just downloaded the template of your chosen campaign, what did you just get? 
@@ -37,7 +37,6 @@ This mod connects your project to the vanilla dependencies made by Blizzard. It 
 This mod file is empty, like very much empty. However, all of the map files use this as their one and only dependency, which means all of the map files use the extender's dependencies as their own with absolutely no changes in between. Note that we call this an **extender** mod not an **extension** mod, they may achieve a similar affect as extension mods on Battle.net but they are very different. Please be careful to use the correct term in discussions to avoid confusion.
 ### Trigger Library (VanillaPlusLibrary.SC2Mod)
 The Base Mods all have a dependency on a mod file who's sole purpose is to be a trigger library, providing useful premade triggers.
-*Not Currently set up in the Base Mods
 
 # What's Not Inside (Your Mod!)
 There's one thing that's missing from this download and that's the file mod *you* need to make. Now it's time for some actual step by step instructions on getting started.
